@@ -1,0 +1,224 @@
+body{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "";
+    height: 100vh;
+    margin: 0;
+}
+.PIN{
+    position: relative;
+    background: linear-gradient(
+        270deg,
+        #040744 13.84%,
+        #1a1f5c 79.44%
+    );
+    text-align: center;
+    display: flex;
+    width: 1700px;
+    justify-content: center;
+    height: 95vh;
+    top: 70px;
+
+}
+.applead{
+    /* width: 150px;
+    margin-bottom: 20px;
+    margin-right: 650px;
+    display: flex;
+    flex-direction: flex-start; */
+    
+    position: absolute;
+    top: 51px;
+    left: 51px;
+    width: 141px;
+    height: 130px;
+    aspect-ratio: 1.09;
+}
+.screen{
+    position: absolute;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: 0 4px 15px rgba(70, 59, 99, 0.4);
+    width: 1400px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sk{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 1200px;
+    height: 400px;
+    padding: 56px 89px 56px 100px;
+    opacity: 0.95;
+
+}
+h2{
+    margin: 20px;
+    color: rgb(4, 4, 75);
+    font-size: 50px;
+    font-weight: 600;
+    gap: px;
+    align-self: stretch;
+    text-align: center;
+    font-family: "Monsterrat";
+}
+p{
+    position: relative;
+    color: rgb(4, 4, 75);
+    font-size: 50px;
+    font-family: "Poppins";
+    font-style: bold;
+    align-self: stretch;
+    margin: 30px;
+    top: -60px;
+    left: 300px;
+    text-align: center;
+    font-weight: 400;
+}
+input{
+    position: relative;
+    font-size: 35px;
+    box-shadow: 0 4px 5px 0 rgb(4, 59, 99, 0.4);
+    margin: 30px 30px;
+    border: 3px solid #040744;
+    box-shadow: inset;
+    border-radius: 10px;
+    width: 620px;
+    top: 50px;
+    left: -200px;
+    height: 87px;
+    font-weight: bold;
+}
+.tip{
+    position: relative;
+    background-color:  #6666661a;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(70, 59, 99, 0.4);
+    width: 790px;
+    gap: 06px;
+    top: 30px;
+    left: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 7px;
+    height: 700px;
+    margin-left: 20px; 
+}
+.keypad{
+    align-self: center;
+    row-gap: 55px;
+    column-gap: 05px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 105px;
+    justify-content: center;
+    justify-self: space-evenly;
+    justify-items: center;
+    padding: 110px 0px;
+}
+button{
+    width: 120px;
+    height: 105px;
+    border-radius: 78px / 52.9px;
+    color: #fff;
+    background-color: #1a1f5c;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+button:hover{
+    background-color: #00ffcc;
+    color: #000;
+    transform: scale(1.05);
+}
+.Continue{
+    position: relative;
+    width: 260px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #f28705;
+    gap: 10px;
+    left: 650px;
+    top: -130px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.arrow{
+    position: relative;
+    width: 260px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: transparent;
+    gap: 10px;
+    color: white;
+    font-size: 45px;
+    border: 3px solid wheat;
+    left: 650px;
+    height: 50px;
+    top: -100px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.arrow:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.continue:hover{
+    background-color: #ac5e00;
+}
+.backspace-1{
+    width: 90px;
+    height: 100px;
+}
+
+.p{
+    position: relative;
+  font-size: 2.9rem;
+  font-weight: 400;
+  color: white;
+  margin-left: 690px;
+  top: 800px;
+  left: -350px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-family: 'poppins',Helvetica;
+  line-height: normal;
+  margin-top: 50px;
+  font-size: 35px;
+  font-style: italic;
+  opacity: 0.8;
+}

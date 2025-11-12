@@ -1,0 +1,216 @@
+body{
+    width: 2240px;
+    height: 1400px;
+    background-color: #000;
+}
+.confirmation{
+    position: relative;
+    display: flex;
+    left: 1000px;
+    align-items: center;
+    width: 1740px;
+    top: 110px;
+    height: 1500px;
+    background: linear-gradient(
+        270deg,
+        rgba(4, 7, 68, 1)29%,
+        rgba(26, 31, 92, 1)67%
+    );
+}
+/* img{
+    width: 1325px;
+    height: 312px;
+    top: 811px;
+    left: calc(50.00% - 678px);
+    position: absolute;
+} */
+.applead{
+    position: absolute;
+    top: 55px;
+    left: 45px;
+    width: 200px;
+    height: 170px;
+    aspect-ratio: 1.09;
+}
+.frame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: #fffffff2;
+    top: -6px;
+    width: 1250px;
+    height: 950px;
+    left: 260px;
+    gap: 230px;
+    border-radius: 20px;
+    opacity: 0.95;
+}
+.div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 129px 81px 110px 82px;
+    width: 660px;
+    height: 394px;
+    top: -100px;
+    gap: 109px;
+    margin-top: 129px;
+}
+.text-wrapper{
+    position: relative;
+    align-self: stretch;
+    text-align: center;
+    line-height: normal;
+    color: #040643;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 600;
+    font-size: 49px;
+    margin-top: 1px;
+}
+.text-wrapper-2{
+   position: relative;
+    align-self: stretch;
+    text-align: center;
+    line-height: normal;
+    color: #040643;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 600;
+    font-size: 49px;
+    margin-top: 1px; 
+}
+.frame-2{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+.text-wrapper-3{
+    position: relative;
+    align-self: stretch;
+    text-align: center;
+    line-height: normal;
+    color: #040643;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 600;
+    font-size: 49px;
+    margin-top: 0px; 
+}
+.currency-naira{
+    position: relative;
+    width: 60px;
+    height: 75px;
+}
+.naira{
+    position: absolute;
+    width: 67%;
+    height: 67%;
+    top: 16.7%;
+    left: 16.67%;
+    margin-left: -5.00px;
+    margin-top: -7.00px;
+}
+.text-wrapper-4{
+    position: relative;
+    width: fit-content;
+    line-height: normal;
+    color: #040643;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 590;
+    font-size: 48px;
+    margin-top: -68.50px;
+    margin-bottom: -9.05px; 
+    margin-left: 40px;
+}
+.frame-4{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    height: 74px;
+    width: 889px;
+    gap: 167px;
+    margin-left: 1px;
+    margin-top: -300.00px;
+}
+.div-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f28705;
+}
+.text-wrapper-5{
+    position: relative;
+    width: fit-content;
+    line-height: normal;
+    color: #000000;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 590;
+    font-size: 38px;
+    margin-top: -1px;
+}
+.frame-5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    background:  linear-gradient(
+        0deg,
+        rgba(26, 31, 92, 1) 0%,
+        rgba(26, 31, 92, 1) 100%
+    ),linear-gradient(
+        0deg,
+        rgba(26, 31, 92, 1) 0%,
+        rgba(26, 31, 92, 1) 100%
+    );
+}
+.text-wrapper-6{
+    position: relative;
+    width: fit-content;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-weight: 590;
+    font-size: 38px;
+    margin-top: -1px;
+}
+.frame-6{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    top: 1438px;
+    left: calc(50.00% - 278px);
+}
+.p{
+    position: relative;
+    width: fit-content;
+    line-height: normal;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-family: 'Poppins-Regular', Helvetica;
+    font-weight: 590;
+    font-size: 29px;
+    margin-top: -1px; 
+}
